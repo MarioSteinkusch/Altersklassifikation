@@ -4,8 +4,9 @@
 import tweepy  # https://github.com/tweepy/tweepy
 import json
 import sys
+import dotenv # import the .env with privat data
 
-# Twitter API credentials (put it in .env file and dont push these to git ;)
+# Twitter API credentials (put it in .env file and set .gitignore, so you dont push these to git ;))
 access_key = "YOUR_ACCESS_KEY"
 access_secret = "YOUR_ACCESS_SECRET"
 owner = "USERNAME"
