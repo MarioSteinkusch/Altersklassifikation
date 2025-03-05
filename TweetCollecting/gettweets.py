@@ -5,13 +5,13 @@ import tweepy  # https://github.com/tweepy/tweepy
 import json
 import sys
 
-# Twitter API credentials
-access_key = "994948929711235077-LUDHhUc639aToGuh7YAhHc8DYWB4XBe"
-access_secret = "BwjFkyvgU2xAxKGz7K3hDNiIpSxxg9EjX8Vkm0IaE4yjb"
-owner = "louziferr"
-owner_ID = "994948929711235077"
-consumer_key = "img2e2Vtap54SB5SbDFx1XV1W"
-consumer_secret = "WHOgGgzcABTX3rWER2mw5PNrxCMSpynnPHIQszZCpdAXIenqEf"
+# Twitter API credentials (put it in .env file and dont push these to git ;)
+access_key = "YOUR_ACCESS_KEY"
+access_secret = "YOUR_ACCESS_SECRET"
+owner = "USERNAME"
+owner_ID = "USER_ID"
+consumer_key = "YOUR_CONSUMER_KEY"
+consumer_secret = "YOUR_CONSUMER_SECRET"
 
 def get_all_tweets(screen_name):
     # Twitter only allows access to a users most recent 3240 tweets with this method
